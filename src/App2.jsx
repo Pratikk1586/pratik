@@ -7,6 +7,7 @@ function Welcome(props) {
 export function App2() {
   return (
     <div>
+        <h1>hi</h1>
       <Welcome name="Alice" />
       <Welcome name="Bob" />
     </div>
