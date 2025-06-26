@@ -1,15 +1,24 @@
-// Function Component using JSX
-function Welcome(props) {
-  return <h1>Welcome, {props.name}</h1>;
-}
 
-// Using the component
-export function App2() {
-  return (
+// function ChildComp(props){
+//   console.log("child :: ", props)
+//   return(<>
+//      <h1> I am child, my name is {props.name}</h1>
+//   </>)
+// }
+
+
+export function App2(props) {
+  // const data = props.details;
+  // console.log(data)
+
+   return (
     <div>
-        <h1>hi</h1>
-      <Welcome name="Alice" />
-      <Welcome name="Bob" />
+        {/* <h1> Hi I am {data.name} </h1> */}
+     {/* <button onClick={props.details}>
+      click me
+     </button> */}
+
+     <ChildComp name = {props.name} />
     </div>
   );
 }

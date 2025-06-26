@@ -1,14 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { App2 } from "./App2"
+import { Grandparent } from "./components/PorpsDrilling"
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  // const raj = {
+  //   name:"Virat",
+  //   age:40
+  // };
+//  const name = "Hrithik";
+//   const pratik = ()=>{
+//     console.log("I am having doubt");
+//   } 
 
   return (
     <>
-  <h1>Hello</h1>
+      {/* <h1>Hello</h1> */}
+      {/* <App2 name="Rohit"/> */}
+      {/* <App2 name = {name}/> */}
+      <Grandparent/>
     </>
   )
 }
