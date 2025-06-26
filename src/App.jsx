@@ -1,5 +1,8 @@
-import { App2 } from "./App2"
-import { Grandparent } from "./components/PorpsDrilling"
+// import { App2 } from "./App2"
+// import { Grandparent } from "./components/PorpsDrilling"
+import Counter from "./components/Counter"
+// import { MyComponent2 } from "./components/FunctionalComponent"
+
 
 function App() {
 
@@ -12,12 +15,18 @@ function App() {
 //     console.log("I am having doubt");
 //   } 
 
+
+
   return (
     <>
       {/* <h1>Hello</h1> */}
       {/* <App2 name="Rohit"/> */}
       {/* <App2 name = {name}/> */}
-      <Grandparent/>
+       {/* {userLoggedin && <Grandparent/>} */}
+       {/* {userLoggedin ?  <Grandparent/> : "Dear user please login"} */}
+
+      {/* <MyComponent2 name="pratik"/> */}
+      <Counter/>
     </>
   )
 }
