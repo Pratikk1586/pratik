@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-export function CalculatorApp() {
+export function Calculatorapp() {
   const [data, setData] = useState("");
   
   const getValue=(event) => {
