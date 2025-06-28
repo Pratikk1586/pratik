@@ -1,0 +1,11 @@
+
+.ooter{
+    background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

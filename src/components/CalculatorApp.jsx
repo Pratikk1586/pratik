@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 
-
 export function Calculatorapp() {
   const [data, setData] = useState("");
   

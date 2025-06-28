@@ -1,0 +1,15 @@
+
+
+.About{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.Aboutc{
+    border: 2px solid;
+    padding: 10px;
+    
+}
